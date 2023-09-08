@@ -1,0 +1,85 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Dahood",  HidePremium = false, SaveConfig = true, ConfigFolder = "Dahood"})
+
+local Tab = Window:MakeTab({
+	Name = "Localplayer",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "anim",
+	Callback = function()
+      		print("loading")
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Modiamthecodex/Animationpack/main/Da%20hood%20animagionapck"))()
+    end    
+})
+
+Tab:AddButton({
+	Name = "Shiftlock!",
+	Callback = function()
+      		print("loading")
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Modiamthecodex/Shiftlocker/main/Shiftlacking"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "zombie!",
+	Callback = function()
+      		print("loading")
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Modiamthecodex/Zombie/main/Zombie%20kaka"))()
+ 	end    
+})
+
+Tab:AddButton({
+	Name = "agentcc!",
+	Callback = function()
+      		print("loading")
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "mobkeyboard!",
+	Callback = function()
+      		print("loading")
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+ 	end    
+})
+
+Tab:AddButton({
+	Name = "Qtool!",
+	Callback = function()
+      		print("loading")
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Modiamthecodex/Roblox-q-tool-for-mobiel/main/Q%20tool"))()
+ 	end    
+})
+
+Tab:AddButton({
+	Name = "antilocker!",
+	Callback = function()
+      		print("loading")
+          loadstring(game:HttpGet:("https://raw.githubusercontent.com/Modiamthecodex/Bitch/main/Antilocker%20for%20dh"))()
+ 	end    
+})
+
+OrionLib:Init()
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+      
+
+
